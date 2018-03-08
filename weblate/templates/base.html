@@ -10,8 +10,8 @@
  <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="referrer" content="origin" />
-  <meta name="author" content="Michal Čihař" />
-  <meta name="copyright" content="Copyright &copy; 2003 - {{ current_year }} Michal Čihař" />
+  <meta name="author" content="The Silph Road, LLC" />
+  <meta name="copyright" content="Copyright &copy; 2016 - {{ current_year }} The Silph Road" />
   {% if not allow_index %}<meta name="robots" content="noindex,nofollow" />{% endif %}
 
   <title>{% include "title.html" %}</title>
@@ -29,6 +29,7 @@
   <link rel="stylesheet" type="text/css" href="{% static 'chartist.css' %}" />
   <link rel="stylesheet" type="text/css" href="{% static 'multi.css' %}" />
   <link rel="stylesheet" type="text/css" href="{% static 'style-bootstrap.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'silph.css' %}" />
 {% endcompress %}
   <script src="{% url 'js-catalog' %}" type="text/javascript"></script>
 {% compress js %}
@@ -118,7 +119,7 @@ var _rollbarConfig = {
           </ul>
         </li>
         {% endif %}
-        <li><a href="{% documentation 'index' %}">{% trans "Documentation" %}</a></li>
+        <!-- <li><a href="{% documentation 'index' %}">{% trans "Documentation" %}</a></li> -->
       </ul>
       <ul class="nav navbar-nav navbar-right flip">
         {% if user.is_authenticated %}

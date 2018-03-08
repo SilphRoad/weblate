@@ -1,0 +1,238 @@
+nav.navbar.navbar-default.navbar-static-top.navbar-inverse {
+    font-family: 'TeX Gyre Adventor';
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-weight: bold;
+    background: #4a4a4a;
+    color: white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+html {
+    background: url(https://assets.thesilphroad.com/img/background2.jpg);
+    background-position: 100%;
+    background-size: cover;
+    min-height: 100%;
+}
+
+body {
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'tex gyre adventor regular';
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: white;
+    background: #f3c531;
+    line-height: 1.5em;
+    padding: 0 5px;
+}
+
+a {
+    color: #e7bd34;
+    text-decoration: none;
+}
+
+ol.breadcrumb {
+    background: #5d5d5d14;
+    letter-spacing: .15em;
+}
+
+.breadcrumb > li + li:before {
+    color:white;
+    opacity:.3;
+}
+
+ol.breadcrumb a {
+    color: white;
+    font-size: 0.6em;
+    line-height: 0.8em;
+    letter-spacing: 0.15em;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #e7bd34;
+    border-radius: 0;
+    border-bottom: 3px solid #232323;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+a:hover, a:focus {
+    color: #6a5a27;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background: #e7bd34;
+    color: white;
+}
+
+.open > ul.dropdown-menu {
+    border-radius: 0;
+    padding-top: 0;
+    border: none;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 0;
+    background: none;
+    font-family: 'Tex Gyre Adventor Regular';
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.nav-pills > li > a {
+    border-radius: 0;
+    font-family: 'tex gyre adventor regular';
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.7em;
+    color: #606060;
+    padding: 5px 12px;
+    border-bottom: 4px solid transparent;
+}
+
+.badge {
+    border-radius: 1px;
+    line-height: 7px;
+    padding: 6px 5px 8px;
+    text-align: center;
+    text-indent: 2px;
+}
+
+.progress {
+    border-radius: 0;
+    background: #eee;
+    box-shadow: none;
+}
+
+.progress-bar-success {
+    background: #74c71c;
+}
+
+progress-bar-warning {
+    background: #e7bd34;
+}
+
+.progress-bar-danger {
+    background: #bb3a3a;
+}
+
+.progress-bar-default {
+    background: #3591bf;
+}
+
+.progress-bar-info {
+    background: #3591bf;
+}
+
+.table a {
+    color: #555;
+}
+
+.panel-primary > .panel-heading {
+    background: #f3c531;
+    border-radius: 0;
+}
+
+.panel {
+    border-radius: 0;
+    border-color: #777;
+}
+
+.multi-wrapper {
+    border-radius: 0;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+footer.flip.pull-left {
+    color: white;
+    font-size: 13px;
+    margin: 5px 0 10px;
+    padding: 10px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    margin: 5px 0 10px;
+    padding: 10px;
+}
+
+footer ul {
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+footer li {
+    color: white;
+}
+
+footer a {
+    color: #e7bd34;
+}
+
+.content {
+    padding-bottom: 20px;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.legend .progress {
+    vertical-align: bottom;
+    margin-left: 14px;
+}
+
+.btn.btn-warning {
+    color: #b97f16;
+    border-color: #b97f16;
+    text-shadow: none;
+}
+
+button.btn.btn-success {}
+
+.btn.btn-success {
+    color: green;
+    border-color: green;
+    text-shadow: none;
+}
+
+.btn.btn-info {
+    color: #4c9dce;
+    border-color: #4c9dce;
+}
+
+.btn.btn-warning:hover, .btn.btn-info:hover, .btn.btn-success:hover {
+    color:white
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #626262;
+}
+
+.alert.alert-info {
+    background: white;
+    border-radius: 0;
+    border-color: #9e883f;
+    border-left: 9px solid #9e883f;
+    color: #9e883f;
+}

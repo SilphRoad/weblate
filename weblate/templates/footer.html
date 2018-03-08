@@ -1,15 +1,15 @@
 {% load translations %}
 {% load i18n %}
 <footer class="flip pull-left">
- <ul>
-  <li>{% blocktrans %}Powered by {{ weblate_version_link }}{% endblocktrans %}</li>
-  <li><a href="{% url 'about' %}">{% blocktrans %}About Weblate{% endblocktrans %}</a></li>
-  {% if legal %}<li><a href="{% url 'legal:index' %}">{% trans "Legal" %}</a></li>{% endif %}
-  {% if status_url %}<li><a href="{{ status_url }}">{% trans "Service status" %}</a></li>{% endif %}
-  <li><a href="{% url 'contact' %}">{% trans "Contact" %}</a></li>
-  <li><a href="{% documentation 'user/index' %}">{% trans "Documentation" %}</a></li>
-  <li><a href="{{ donate_url }}">{% trans "Donate to Weblate" %}</a></li>
- </ul>
+  &copy;{{ current_year }} The Silph Road | All Rights Reserved | <a href="https://twitter.com/TheSilphRoad" target="_blank">@TheSilphRoad</a> | <a href="http://reddit.com/r/TheSilphRoad" target="_blank">/r/TheSilphRoad</a>
+  <br>
+  Pokémon And All Respective Names are Trademark &amp; &copy; of Nintendo 1996-2018   
+  <br>
+  Pokémon GO is Trademark &amp; &copy; of Niantic, Inc.
+  <br>
+  This Silph Road is not affiliated with Niantic Inc., The Pokemon Company, or Nintendo.
+  <br>
+  For inquiries, contact team@TheSilphRoad.com
 </footer>
 
 {% if piwik_site_id and piwik_url %}
